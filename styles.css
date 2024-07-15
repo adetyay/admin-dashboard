@@ -64,6 +64,11 @@ h6 {
 
 /* CSS RESET ABOVE */
 
+.main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
 img{
     width: 20px;
 }
@@ -78,9 +83,30 @@ img{
     border-radius: 50%;
 }
 
+h1{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+h1 img{
+    width: 50px;
+}
+
 .sidebar{
     background-color: #3b82f6;
     color: white;
+    padding: 25px;
+    font-weight: bold;
+    min-width: 300px;
+}
+
+.sidebar img{
+    margin-right: 10px;
+}
+
+.top-menu{
+    margin-bottom: 50px;
 }
 
 ul{
@@ -90,4 +116,8 @@ ul{
 
 ul li{
     list-style-type: none;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    align-self: center;
 }

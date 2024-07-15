@@ -64,3 +64,30 @@ h6 {
 
 /* CSS RESET ABOVE */
 
+img{
+    width: 20px;
+}
+
+.profile{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.pfp{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.sidebar{
+    background-color: #3b82f6;
+    color: white;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}

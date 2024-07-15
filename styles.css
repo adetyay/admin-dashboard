@@ -64,6 +64,9 @@ h6 {
 
 /* CSS RESET ABOVE */
 
+
+/* images */
+
 .main{
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -83,6 +86,8 @@ img{
     border-radius: 50%;
 }
 
+/* sidebar */
+
 h1{
     display: flex;
     margin-bottom: 50px;
@@ -95,10 +100,9 @@ h1 img{
 
 .sidebar{
     background-color: #3b82f6;
-    color: white;
     padding: 25px;
     font-weight: bold;
-    min-width: 300px;
+    min-width: 280px;
 }
 
 .sidebar img{
@@ -120,4 +124,33 @@ ul li{
     margin-bottom: 20px;
     align-items: center;
     align-self: center;
+}
+
+/* header */
+
+.top-header{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+
+.search-icon{
+    margin-right: 15px;
+}
+
+.top-header input{
+    margin-right: auto;
+    background-color: rgb(201, 201, 201);
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    padding: 2px 0 2px 10px;
+}
+
+.bell-icon{
+    margin-right: 25px;
+}
+
+.top-header img{
+    margin-right: 25px;
 }
